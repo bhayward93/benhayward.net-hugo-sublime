@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+
+
+ <html class="no-js"> 
+<head>
+    <title>Hosting a Hugo blog in IPFS  &middot; Ben Hayward </title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="content-language" content="en-GB" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="author" content="Ben Hayward">
+    <meta name="description" content="Web &amp; Blockchain Developer.">
+    <meta name="generator" content="Hugo 0.59.1" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/smooth-scrollbar.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/styles/tomorrow.min.css" />
+    
+
+    <style>
+        .posts li {
+            visibility: hidden;
+        }
+    </style> 
+</head>
+<body>
+    
+    
+
+    <header>	
+	<div class="h-wrap">
+		
+		<h1 class="title"><a href="">Ben Hayward</a></h1>
+		
+	</div>
+</header>
+    
+    <div class="site-wrapper" id="full-wrapper">
+        
+        <section class="single-wrap">
+            <article class="single-content" itemscope itemtype="//schema.org/BlogPosting">
+                <div class="feat">
+                    <h5 class="page-date">
+                    <time datetime="" itemprop="datePublished">
+                    20 September 2019
+                   
+                    </time>
+                    </h5>
+                </div>
+                <h1 class="page-title" itemprop="name headline">Hosting a Hugo blog in IPFS</h1>
+                <div itemprop="articleBody">
+                    
+
+<h3 id="what-is-hugo">What is Hugo</h3>
+
+<p>Hugo is a static site generator which provides an quick and simple website, like this one.</p>
+
+<h3 id="what-is-ipfs">What is IPFS</h3>
+
+<p>IPFS (InterPlanetary File System) defines itself as ‘a peer-to-peer hypermedia protocol to make the web faster, safer, and more open.’. It is a system has been created not too dissimilar from BitTorrent, but fundamentally different in a few ways. At its core IPFS is a file-system that uses the hash of a file as the content address - As the same file will always hash to the same value, if multiple people share the same file, they are pointing at the same address, irregardless of when and where they are uploading from. it offers the world a cheap, immutable, uncensored alternative to the HTTP protocol.</p>
+
+<h3 id="why-host-a-site-on-ipfs">Why host a site on IPFS?</h3>
+
+<p>One advantage of IPFS is that it provides the opportunity for a person to create an inexpensive quick to set-up static website. In this tutorial, we will be creating a personal blog!</p>
+
+<p>One of the main disadvantages currently IPFS is that it is not yet optimized enough to support more-complicated web applications. You will have to stick to lightweight static websites. This, makes it absolutely perfect to use a static site generator such as Jekyll. Here we are going to grab an existing Jekyll template, but if you would like to create your own website from scratch then feel free to skip down.</p>
+
+<h3 id="great-how-do-i-start">Great! How do I start?</h3>
+
+<p>Well. The more personal thing would be to create your own static website. There is no server in IPFS, so if you want a more dynamic page - feel free to look into client side databases like Gun, or even [OrbitDB] - Which itself uses IPFS.</p>
+
+<p>If you are looking for a no hassle, easy and quick solution, you can use Hugo as will be demonstrated in this blog. Hugo is a static site generation tool, that just requires a little tinkering and some simple commands to create a website from templates.</p>
+
+<h3 id="install-hugo">Install Hugo</h3>
+
+<h3 id="picking-a-theme">Picking a theme</h3>
+
+<h3 id="setting-up-the-site">Setting up the site</h3>
+
+<p>Firstly, in your terminal, pick a directory for your site, and run:</p>
+
+<pre><code>hugo new site [[folder name]]
+cd [[folder name]]
+</code></pre>
+
+<p>Okay, you&rsquo;re now in the project root for your site. You&rsquo;re going to want to fine a theme</p>
+
+<p><a href="https://themes.gohugo.io/">https://themes.gohugo.io/</a></p>
+
+<p>When you&rsquo;ve found one, follow the installation instructions in the README.
+Install the theme into the project root.</p>
+
+<h3 id="make-some-content">Make some content</h3>
+
+<h3 id="running-the-site">Running the site</h3>
+
+<h3 id="installing-ipfs">Installing IPFS</h3>
+
+<h3 id="deploy-ipfs">Deploy IPFS</h3>
+                    
+                </div>
+                <div class="feat share">
+                </div>
+                
+                
+                
+            </article>
+        </section>
+
+        <footer>
+	
+</footer>
+    </div>
+
+    <div class="next-prev-arrows">
+        
+        
+    </div>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="js/scrollreveal.min.js"></script>
+<script type='application/javascript' src='js/smooth-scrollbar.js'></script>
+<script src="js/baffle.min.js"></script>
+<script src="js/main.js"></script>
+
+
+
+
+
+<!-- Syntax highlighting -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+</body>
+</html>
