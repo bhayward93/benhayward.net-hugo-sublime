@@ -1,6 +1,5 @@
 # baseurl = "https://example.com/"
 relativeURLs = true
-
 # remember trailing / at end of baseurl
 languageCode = "en-GB"
 title = "Ben Hayward"
