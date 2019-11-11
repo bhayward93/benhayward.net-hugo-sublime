@@ -1,8 +1,8 @@
 +++
 title = "Hosting a Hugo blog in IPFS"
-description = "A guide to hosting "
+description = "A guide to hosting a Hugo generated site through IPFS."
 tags = [ "IPFS", "Hugo" ]
-date = "2019-09-20"
+date = "2019-11-11"
 location = "UK"
 categories = [
   "Tutorials",
@@ -11,7 +11,7 @@ slug = "ipfs-blog-host-hugo,"
 type = "post"
 +++
 
-### Hugo & IPFS 
+### Hugo & IPFS
 
 Hugo is a static site generator which provides an quick and simple website, like this one.
 

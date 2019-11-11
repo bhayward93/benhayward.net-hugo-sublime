@@ -15,8 +15,8 @@ theme = "sublime-hugo"
 
 [params]
 	name = "Ben Hayward"
-	description = "Web & Blockchain Developer."
-	copyright = "MIT"
+	description = "Ben Hayward - Web & Blockchain Developer."
+	copyright = ""
 
 	# Custom assets can be linked with their paths relative to static/
 	custom_css = []
@@ -32,8 +32,8 @@ theme = "sublime-hugo"
 [params.offcanvas]
 	# Menu items
 	title = "Ben Hayward"
-	bio = ""
-	bio2 = ""
+	bio = "Web & Blockchain Developer"
+	bio2 = "Supporter of FOSS; Linux Enthusiast interesting in Decentralized Technologies"
 	subscribe = "Subscribe"
 	followme = "Contact"
 
